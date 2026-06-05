@@ -1,0 +1,11 @@
+[user]
+	name = Mahilan Suki
+	email = mahilan.suki@gmail.com
+[core]
+	editor = nvim
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
+[pull]
+	rebase = false
