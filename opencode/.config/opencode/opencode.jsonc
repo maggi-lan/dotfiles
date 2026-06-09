@@ -1,0 +1,61 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "lsp": {
+    "bash": {
+      "command": ["bash-language-server", "start"],
+      "extensions": [".sh", ".bash", ".zsh"]
+    },
+
+    "python": {
+      "command": ["pyright-langserver", "--stdio"],
+      "extensions": [".py"]
+    },
+
+    "rust": {
+      "command": ["rust-analyzer"],
+      "extensions": [".rs"]
+    },
+
+    "typescript": {
+      "command": ["typescript-language-server", "--stdio"],
+      "extensions": [".ts", ".tsx", ".js", ".jsx"]
+    },
+
+    "html": {
+      "command": ["html-languageserver", "--stdio"],
+      "extensions": [".html"]
+    },
+
+    "css": {
+      "command": ["vscode-css-language-server", "--stdio"],
+      "extensions": [".css", ".scss", ".sass", ".less"]
+    },
+
+    "lua": {
+      "command": ["lua-language-server"],
+      "extensions": [".lua"]
+    },
+
+    "c_cpp": {
+      "command": ["clangd"],
+      "extensions": [
+        ".c",
+        ".cc",
+        ".cpp",
+        ".cxx",
+        ".h",
+        ".hpp"
+      ]
+    },
+
+    "go": {
+      "command": ["gopls"],
+      "extensions": [".go"]
+    }
+  },
+
+  "permission": {
+    "lsp": "allow"
+  }
+}
