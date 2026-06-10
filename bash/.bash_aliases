@@ -12,6 +12,7 @@ alias o='a -e xdg-open' # quick opening files with xdg-open
 alias glogs="git log --all --graph --decorate --oneline"
 alias gs="git status"
 alias gc="git commit"
+alias ga="git add"
 alias gd="git diff"
 alias gds="git diff --staged"
 
