@@ -169,5 +169,8 @@ export COPILOT_MODEL=gpt-5-mini
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
 
+# set location for Go workspace/cache
+export GOPATH="$HOME/.local/share/go"
+
 # opencode
 export PATH=/home/maggi/.opencode/bin:$PATH
