@@ -41,7 +41,7 @@ return {
 			})
 
 			-- Format current buffer
-			vim.keymap.set("n", "<leader>gf", function()
+			vim.keymap.set("n", "gf", function()
 				vim.lsp.buf.format({ async = true })
 			end, { desc = "Format file with null-ls" })
 		end,
