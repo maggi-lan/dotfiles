@@ -30,7 +30,7 @@ alias ta="tmux attach -t"
 # xdg-open
 alias open='xdg-open'
 
-# ls
+# ls/eza
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
