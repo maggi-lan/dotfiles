@@ -40,3 +40,4 @@ alias oc='opencode --port'
 # few other useful aliases
 alias mv="mv -i"           # -i prompts before overwrite
 alias mkdir="mkdir -p"     # -p make parent dirs as needed
+alias clera="clear"        # typo fix for clear
