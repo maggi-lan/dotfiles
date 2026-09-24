@@ -207,6 +207,9 @@ exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapp
 # natural scrolling
 exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1
 
+# touchpad sensitivity
+exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 0.3
+
 # compositor
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
 
