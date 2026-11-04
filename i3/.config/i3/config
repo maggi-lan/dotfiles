@@ -201,14 +201,10 @@ client.urgent           #cc241d   #282828    #fb4934  #cc241d   #cc241d
 # Shift + Caps Lock -> actual Caps Lock
 exec --no-startup-id setxkbmap -option caps:escape_shifted_capslock
 
-# enable tap-to-click
-exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
-
-# natural scrolling
-exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Natural Scrolling Enabled" 1
-
-# touchpad sensitivity
-exec --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 0.3
+# touchpad settings
+exec --no-startup-id xinput set-prop "Synaptics TM3471-010" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id xinput set-prop "Synaptics TM3471-010" "libinput Accel Speed" 0.4
+exec --no-startup-id xinput set-prop "Synaptics TM3471-010" "libinput Tapping Enabled" 1
 
 # compositor
 exec_always --no-startup-id picom --config ~/.config/picom/picom.conf
